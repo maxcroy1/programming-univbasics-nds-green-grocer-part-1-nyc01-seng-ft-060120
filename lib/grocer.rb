@@ -23,11 +23,9 @@ def consolidate_cart(cart)
     for i in 0...(consolidated_cart.length)
       if consolidated_cart[i][:item] == item[:item]
         consolidated_cart[i][:count] += 1
-        binding.pry
       end
     end
   end
-  binding.pry
   consolidated_cart
 end
 

@@ -20,7 +20,6 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = []
   consolidated_cart << cart.first
-  binding.pry
   item_count = 0
   increment_variable = 1
   while increment_variable < cart.length do

@@ -23,7 +23,6 @@ def consolidate_cart(cart)
   binding.pry
   item_count = 0
   increment_variable = 0
-  
   consolidated_cart
 end
 

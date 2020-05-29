@@ -23,7 +23,8 @@ def consolidate_cart(cart)
   item_count = 1
   increment_variable = 1
   for i in 0...(consolidated_cart.length)
-    for i in 0
+    for y in 1...(cart.length)
+    end
   end
   consolidated_cart
 end

@@ -21,7 +21,7 @@ def consolidate_cart(cart)
   consolidated_cart = [cart.first]
   consolidated_cart[0][:count] = 1
   for i in 1...(cart.length)
-    for y in 1...(cart.length)
+    for y in 0...(consolidated_cartcart.length)
       if cart[y][:item] == consolidated_cart[i][:item]
         consolidated_cart[i][:count] += 1
       end

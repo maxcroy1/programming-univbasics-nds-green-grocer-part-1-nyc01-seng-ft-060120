@@ -21,7 +21,7 @@ def consolidate_cart(cart)
   consolidated_cart = []
   consolidated_cart << cart.first
   consolidated_cart[0][:count] = 1
-  item_count = 0
+  item_count = 1
   increment_variable = 1
   while increment_variable < cart.length do
     binding.pry

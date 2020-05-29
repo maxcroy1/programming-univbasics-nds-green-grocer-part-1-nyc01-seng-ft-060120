@@ -24,7 +24,8 @@ def consolidate_cart(cart)
   increment_variable = 1
   for i in 0...(consolidated_cart.length)
     for y in 1...(cart.length)
-      
+      if cart[y][:item] == consolidated_cart[i][:item]
+      end
     end
   end
   consolidated_cart

@@ -22,8 +22,8 @@ def consolidate_cart(cart)
   consolidated_cart[0][:count] = 1
   item_count = 1
   increment_variable = 1
-  for i in 1...(cart.length)
-    
+  for i in 1...(consolidated_cart.length)
+    for 
   end
   consolidated_cart
 end

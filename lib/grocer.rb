@@ -19,9 +19,6 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = []
-  if consolidated_cart.length < 0 
-    for 
-  end
   cart.each do |item|
     for i in 0...(consolidated_cart.length)
       if consolidated_cart[i][:item] == item[:item]

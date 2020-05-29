@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = []
-  consolidated_cart << cart.firt
+  consolidated_cart << cart.first
   item_count = 0
   increment_variable = 0
   while increment_variable <= consolidated_cart.length do

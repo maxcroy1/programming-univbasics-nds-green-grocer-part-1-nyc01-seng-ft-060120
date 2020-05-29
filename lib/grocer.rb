@@ -21,9 +21,7 @@ def consolidate_cart(cart)
   consolidated_cart = []
   cart.each do |item|
     item_count = 0
-    for i in 0...(consolidated_cart.length)
-      binding.pry
-    end
+    binding.pry
   end
   consolidated_cart
 end

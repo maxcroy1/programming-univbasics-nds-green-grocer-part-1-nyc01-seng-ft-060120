@@ -27,6 +27,7 @@ def consolidate_cart(cart)
         consolidated_cart[y][:count] += 1
         item_incremented = true
       end
+      
     end
   end
   consolidated_cart

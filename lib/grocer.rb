@@ -30,7 +30,7 @@ def consolidate_cart(cart)
       if item_incremented = false
         new_item = cart[i]
         new_item[:count] = 1
-        consolidated_cart << cart[i]
+        consolidated_cart << new_item
         
       end
     end

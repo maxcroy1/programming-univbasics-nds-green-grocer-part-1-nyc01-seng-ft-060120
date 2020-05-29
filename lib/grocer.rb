@@ -34,7 +34,7 @@ def consolidate_cart(cart)
       consolidated_cart << new_item
     end
     item_incremented = false
-    
+    binding.pry
   end
   consolidated_cart
 end

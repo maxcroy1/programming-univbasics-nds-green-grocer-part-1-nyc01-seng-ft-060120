@@ -33,7 +33,6 @@ def consolidate_cart(cart)
       new_item[:count] = 1
       consolidated_cart << new_item
     end
-    binding.pry
     item_incremented = false
   end
   consolidated_cart

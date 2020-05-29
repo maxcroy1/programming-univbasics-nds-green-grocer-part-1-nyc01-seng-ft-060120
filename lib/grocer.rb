@@ -1,8 +1,16 @@
+require 'pry'
+
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-
+  desired_item = nil
+  collection.each do |key|
+    if key[:item] == name
+      desired_item = key
+    end
+  end
+  desired_item
 end
 
 def consolidate_cart(cart)
@@ -10,7 +18,17 @@ def consolidate_cart(cart)
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
-
+  consolidated_cart = []
+  cart.each do |item|
+    for i in 0...(consolidated_cart.length)
+      if consolidated_cart[i][:item] == item[:item]
+        consolidated_cart[i][:count] += 1
+        binding.pry
+      end
+    end
+  end
+  binding.pry
+  consolidated_cart
 end
 
 

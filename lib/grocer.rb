@@ -20,6 +20,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = []
   consolidated_cart << cart.first
+  consolidated_cart[0][:count] = 1
   item_count = 0
   increment_variable = 1
   while increment_variable < cart.length do

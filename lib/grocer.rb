@@ -20,6 +20,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = [cart.first]
   consolidated_cart[0][:count] = 1
+  item_incremented = false
   for i in 1...(cart.length)
     for y in 0...(consolidated_cart.length)
       if cart[i][:item] == consolidated_cart[i][:item]

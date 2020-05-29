@@ -28,7 +28,7 @@ def consolidate_cart(cart)
         item_incremented = true
       end
       if item_incremented = false
-        consolidated_cart << cart[y]
+        consolidated_cart << cart[i]
       end
     end
   end

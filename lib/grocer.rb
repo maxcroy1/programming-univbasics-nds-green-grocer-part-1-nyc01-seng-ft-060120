@@ -23,7 +23,7 @@ def consolidate_cart(cart)
   binding.pry
   item_count = 0
   increment_variable = 1
-  while increment_variable < cart.length 
+  while increment_variable < cart.length do
     binding.pry
   end
   consolidated_cart

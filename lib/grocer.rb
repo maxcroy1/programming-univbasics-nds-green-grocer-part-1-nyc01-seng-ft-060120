@@ -22,9 +22,7 @@ def consolidate_cart(cart)
   consolidated_cart[0][:count] = 1
   item_count = 1
   increment_variable = 1
-  while increment_variable < cart.length do
-    binding.pry
-  end
+  for i in 1...(cart.length)
   consolidated_cart
 end
 

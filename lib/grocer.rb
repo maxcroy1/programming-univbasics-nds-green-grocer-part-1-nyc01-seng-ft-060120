@@ -27,13 +27,13 @@ def consolidate_cart(cart)
         consolidated_cart[y][:count] += 1
         item_incremented = true
       end
-      if item_incremented = false
-        new_item = cart[i]
-        new_item[:count] = 1
-        consolidated_cart << new_item
-      end
-      item_incremented = false
     end
+    if item_incremented = false
+      new_item = cart[i]
+      new_item[:count] = 1
+      consolidated_cart << new_item
+    end
+    item_incremented = false
   end
   consolidated_cart
 end

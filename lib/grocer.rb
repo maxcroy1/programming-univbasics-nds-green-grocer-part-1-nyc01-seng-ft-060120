@@ -20,6 +20,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = []
   for cart.each do |item|
+    binding.pry
   end
   consolidated_cart
 end

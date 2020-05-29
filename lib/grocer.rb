@@ -20,6 +20,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   consolidated_cart = []
   cart.each do |item|
+    
     for i in 0...(consolidated_cart.length)
       if consolidated_cart[i][:item] == item[:item]
         consolidated_cart[i][:count] += 1
